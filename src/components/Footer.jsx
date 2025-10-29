@@ -12,14 +12,14 @@ function Footer() {
       <div className="flex gap-8 justify-center pt-8">
         <div className="border-2 rounded-full w-100 h-15  py-2">
           <input
-            className="flex-1 border-0 rounded-full py-2 px-8 outline-0"
+            className="flex-1 border-0 rounded-full py-2 px-8 outline-0 cursor-pointer"
             type="text"
             placeholder="Enter your Email"
           ></input>
         </div>
         <div>
           <div>
-            <button className="border rounded-full w-48 h-15  bg-gray-200">
+            <button className="border rounded-full w-48 h-15  bg-gray-200 cursor-pointer">
               Subscribe
             </button>
           </div>

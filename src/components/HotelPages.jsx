@@ -12,7 +12,7 @@ function HotelPages() {
         <HotelsPage
           img={coastal}
           name="Mombasa,Kenya"
-          price={2000}
+          price={200}
           description=" Imagine stepping off the hustle of everyday life
           into the soothing rhythm of the waves—in a hotel
            perched right on the edge of land and sea.
@@ -28,7 +28,7 @@ function HotelPages() {
         <HotelsPage
           img={grand}
           name="Nairobi,Kenya"
-          price={5000}
+          price={500}
           description="Imagine stepping off the hustle of everyday life 
           into the soothing rhythm of the waves—in a hotel
           perched right on the edge of land and sea.
@@ -44,7 +44,7 @@ function HotelPages() {
         <HotelsPage
           img={Hotel}
           name="Naivasha,Kenya"
-          price={8000}
+          price={800}
           description="Imagine stepping off the hustle of everyday life 
           into the soothing rhythm of the waves—in a hotel
           perched right on the edge of land and sea.

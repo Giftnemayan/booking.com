@@ -19,10 +19,11 @@ const AboutUs = () => {
         <h2 className="text-2xl font-bold pt-8">Who We Are</h2>
         <p>
           Founded in 2020, <strong>Booking.com</strong> is a modern hotel
-          booking platform dedicated to connecting travelers with the best
-          hotels around the globe. Whether you’re traveling for business or
-          leisure, we make it simple to find, compare, and book your perfect
-          stay — all in one place.
+          booking platform dedicated to connecting travelers <br />
+          with the best hotels around the globe. Whether you’re traveling for
+          business or leisure,
+          <br /> we make it simple to find, compare, and book your perfect stay
+          — all in one place.
         </p>
       </section>
 
@@ -58,18 +59,22 @@ const AboutUs = () => {
         <h2 className="text-2xl font-bold pt-8">Meet Our Team</h2>
         <div className="team-grid flex gap-12">
           <div className="team-member">
-            <img className="w-[80px] rounded-full" src={dave} alt="CEO" />
+            <img className="w-[90px] rounded-full h-20" src={dave} alt="CEO" />
             <h4>Dave Johnson</h4>
             <p>CEO & Founder</p>
           </div>
           <div className="team-member">
-            <img className="w-[80px] rounded-full" src={michael} alt="CTO" />
+            <img
+              className="w-[90px] rounded-full h-20"
+              src={michael}
+              alt="CTO"
+            />
             <h4>Michael Lee</h4>
             <p>Chief Technology Officer</p>
           </div>
           <div className="team-member">
             <img
-              className="w-[80px] rounded-full"
+              className="w-[90px] rounded-full h-20"
               src={emilly}
               alt="Marketing Head"
             />

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const BookHotelPage = () => {
   const [formData, setFormData] = useState({
@@ -25,13 +26,23 @@ const BookHotelPage = () => {
 
   if (submitted) {
     return (
-      <div className="confirmation">
+      <div className="confirmation text-center items-center pt-6 ">
         <h2>✅ Booking Confirmed!</h2>
         <p>
           Thank you, {formData.name}. Your stay is booked from{" "}
           {formData.checkIn} to {formData.checkOut}.
         </p>
-        <button onClick={() => setSubmitted(false)}>Book Another Room</button>
+        <button
+          className="cursor-pointer text-green-600"
+          onClick={() => setSubmitted(false)}
+        >
+          Book Another Room
+        </button>
+        <Link to="/payment">
+          <button className="bg-gray-200 border rounded-full  h-10 w-40 ml-6 cursor-pointer ">
+            Make Payment
+          </button>
+        </Link>
       </div>
     );
   }
