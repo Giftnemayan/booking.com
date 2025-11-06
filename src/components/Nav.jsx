@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav>
-      <div className=" bg-gray-200 h-[80px]">
+      <div className=" bg-[#5a554d] h-[80px]">
         <div className="flex place-content-between gap-4">
           <div className="flex gap-8">
             <div>
-              <h1 className=" font-extrabold pt-6">BOOKING.COM</h1>
+              <h1 className="text-white font-extrabold pt-6">BOOKING.COM</h1>
             </div>
-            <ul className=" flex gap-12 place-content-between ml-190 pt-6">
+            <ul className="text-white flex gap-12 place-content-between ml-190 pt-6">
               <Link to="/">
                 <li>Home</li>
               </Link>

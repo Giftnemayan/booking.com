@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import google from "../assets/google.png";
+import image from "../assets/Hotel.jpg";
 function SignupForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -162,13 +163,24 @@ function SignupForm() {
           <img src={google} alt={google} className="w-6 " />
           Sign Up With Google
         </button>
-        <div className="flex mt-8 ml-6  gap-4">
+        <div className="flex mt-8 ml-6  gap-4 pb-4">
           <p>Already Have An Account?</p>
           <Link to="/login" className="text-[#45c9a1]">
             Log In
           </Link>
+
+          <Link to="/bookhotel">
+            <button className="bg-gray-200 border rounded-full h-12 items-center  py-3 px-3 pb-4">
+              BOOK A HOTEL NOW
+            </button>
+          </Link>
         </div>
       </div>
+      <img
+        className="w-270 h-200 mt-10 rounded-xl object-cover"
+        src={image}
+        alt={image}
+      />
     </div>
   );
 }

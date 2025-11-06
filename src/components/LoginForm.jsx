@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import google from "../assets/google.png";
+import image from "../assets/Hotel.jpg";
 function LoginForm() {
   // form state
   const [email, setEmail] = useState("");
@@ -79,7 +80,12 @@ function LoginForm() {
     // setPassword("");
   };
   return (
-    <div className=" object-cover">
+    <div className=" object-cover flex">
+      <img
+        className="w-150 h-200  rounded-xl object-cover"
+        src={image}
+        alt={image}
+      />
       <div className="flex-col ml-20">
         <div className="text-2xl font-bold mt-4 pl-4 pb-4 ml-12">
           <p>Login To Your Account</p>
@@ -156,10 +162,16 @@ function LoginForm() {
           Log In With Google
         </button>
         {/* Sign-up link */}
-        <div className="flex mt-8 ml-6  gap-4">
+        <div className="flex mt-8 ml-6  gap-4 pb-4">
           <p>Don't Have An Account Yet?</p>
           <Link to="/sign" className="text-[#45C9A1]">
             Sign Up Free
+          </Link>
+
+          <Link to="/bookhotel">
+            <button className="bg-gray-200 border rounded-full h-12 items-center  py-3 px-3 pb-4">
+              BOOK A HOTEL NOW
+            </button>
           </Link>
         </div>
       </div>
