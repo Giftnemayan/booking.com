@@ -2,6 +2,7 @@ import HotelsPage from "./HotelsPage";
 import coastal from "../assets/coastal.avif";
 import grand from "../assets/grand.avif";
 import Hotel from "../assets/Hotel.jpg";
+// import { link } from "react-router-dom";
 function HotelPages() {
   return (
     <div>
@@ -25,6 +26,7 @@ function HotelPages() {
          into the background, replaced by the gentle
           soundtrack of the ocean and <strong>the promise of serenity."
         />
+
         <HotelsPage
           img={grand}
           name="Nairobi,Kenya"

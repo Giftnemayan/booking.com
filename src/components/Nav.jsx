@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav>
-      <div className=" bg-[#5a554d] h-[80px]">
+      <div className=" bg-blue-800 h-[80px]">
         <div className="flex place-content-between gap-4">
           <div className="flex gap-8">
             <div>

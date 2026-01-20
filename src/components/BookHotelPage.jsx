@@ -50,7 +50,10 @@ const BookHotelPage = () => {
   return (
     <div className="booking-container">
       <h1 className="font-bold text-2xl">Hotel Room Booking</h1>
-      <form onSubmit={handleSubmit} className="booking-form flex-row">
+      <form
+        onSubmit={handleSubmit}
+        className="booking-form flex-col gap-6 pt-6"
+      >
         <label>
           Full Name:
           <input

@@ -5,7 +5,7 @@ import HotelPages from "../components/HotelPages";
 function Home() {
   return (
     <div className=" mt-6">
-      <header className="bg-[url(/src/assets/Hotel.jpg)] bg-contain w-400 h-250 bg-no-repeat">
+      <header className="bg-blue-800 h-80">
         <Hero />
       </header>
       <main>

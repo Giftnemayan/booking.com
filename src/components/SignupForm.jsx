@@ -168,12 +168,6 @@ function SignupForm() {
           <Link to="/login" className="text-[#45c9a1]">
             Log In
           </Link>
-
-          <Link to="/bookhotel">
-            <button className="bg-gray-200 border rounded-full h-12 items-center  py-3 px-3 pb-4">
-              BOOK A HOTEL NOW
-            </button>
-          </Link>
         </div>
       </div>
       <img

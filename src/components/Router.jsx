@@ -6,6 +6,7 @@ import AboutUs from "../pages/AboutUs";
 import SignUp from "../pages/SignUp";
 import LogIn from "../pages/LogIn";
 import PaymentPage from "../pages/PaymentPage";
+import Mombasa from "../pages/Mombasa";
 
 function Router() {
   return (
@@ -57,6 +58,15 @@ function Router() {
             element={
               <Layout>
                 <PaymentPage />
+              </Layout>
+            }
+          ></Route>
+
+          <Route
+            path="mombasa"
+            element={
+              <Layout>
+                <Mombasa />
               </Layout>
             }
           ></Route>

@@ -2,6 +2,7 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 // ...existing code...
 function Layout({ children, cart = [] }) {
@@ -10,7 +11,10 @@ function Layout({ children, cart = [] }) {
       <header>
         <Nav cart={cart} />
       </header>
-      <main className="flex-1">{children}</main>
+      <main className="flex-1">
+        {children}
+        {/* <Hero /> */}
+      </main>
       <footer>
         <Footer />
       </footer>

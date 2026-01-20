@@ -167,12 +167,6 @@ function LoginForm() {
           <Link to="/sign" className="text-[#45C9A1]">
             Sign Up Free
           </Link>
-
-          <Link to="/bookhotel">
-            <button className="bg-gray-200 border rounded-full h-12 items-center  py-3 px-3 pb-4">
-              BOOK A HOTEL NOW
-            </button>
-          </Link>
         </div>
       </div>
     </div>
